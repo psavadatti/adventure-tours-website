@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <nav class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="https://www.kesari.in/">Tours</a></li>
+    <li><a href="#explore">Explore</a></li>
+    <li><a href="https://en.wikipedia.org/">About</a></li>
+     <a href="#footer" class="ctn">Contact us</a>   
+
+    </ul>
+    <div id="ham">
+    <img id="btn" onclick="func()" src="menu-btn.png" alt="menu-btn">
+    </div>
+</nav>
+<div id="header">
+<div class="header-content">
+<h2>Explore The Colorful World</h2>
+<div class="line"></div>
+<h1>A WONDERFUL GIFT</h1> 
+<a href="#" class="ctn">Learn More</a>   
+</div>    
+</div>
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="img1.png" class="walkImg" alt="Trek">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime mollitia quaerat dolorem beatae, sed explicabo, consequuntur aperiam quis, eveniet ullam inventore nostrum quia neque! Nesciunt assumenda tenetur ea dolorum.</p>
+            <a href="https://www.himalayanwonders.com/" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="img2.png" class="walkImg" alt="walk">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime mollitia quaerat dolorem beatae, sed explicabo, consequuntur aperiam quis, eveniet ullam inventore nostrum quia neque! Nesciunt assumenda tenetur ea dolorum.</p>
+            <a href="https://www.responsibletravel.com/" class="ctn">Learn More</a>
+        </div>
+    </div>
+</section>
+<section class="explore" id="explore">
+<div class="explore-content">
+    <div id="exHead"><h1>EXPLORE THE WORLD</h1></div>
+    <div class="line"></div>
+<div id="exHead"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, qui velit magnam quo dolores sint ab excepturi repellat in sunt atque ad? Quis obcaecati porro hic? Explicabo, fugit necessitatibus? Neque.</p></div>
+<div id="exHead"><a href="https://www.contiki.com/" class="ctn2">Learn More</a></div>
+</div>
+</section>
+<section class="tours">
+<div class="row">
+    <div class="col content-col">
+        <div id="upTour"><h1>UPCOMING<br/>TOURS &<br/>DESTINATION</h1></div>
+        <div class="line"></div>
+        <div id="upTour2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum earum accusantium officiis neque, enim illo corporis, quam alias aliquam recusandae vitae sint tempora exercitationem eos possimus ratione nihil fuga minima?</p></div>
+        <a href="https://www.cleartrip.com/" class="ctn" style="margin-top: 30px;">Learn More</a>
+    </div>
+    <div class="col image-col">
+        <div class="image-gallery">
+            <img src="img6.png" alt="img-gallery">
+            <img src="img5.png" alt="img-gallery">
+            <img src="img4.png" alt="img-gallery">
+            <img src="img3.png" alt="img-gallery">
+
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- for moblie div only -->
+<div id="mobile">
+    <nav class="navbar">
+        <div id="ham">
+            <img id="btn" onclick="func()" src="menu-btn.png" alt="menu-btn">
+        </div>
+      
+    </nav>
+    <div id="mobileMenu">
+        <ul class="nav-links">
+            <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="https://www.kesari.in/">Tours</a></li>
+    <li><a href="#explore">Explore</a></li>
+    <li><a href="https://en.wikipedia.org/">About</a></li>
+     <a href="#footer" class="ctn">Contact us</a>   
+
+    </ul>
+        
+            </ul>
+    </div>
+</div>
+<section class="footer" id="footer">
+   
+    <div id="footDiv"><p>35 sector navanagr bagalkot 587103|Phone:9448909399|Email:prasad.savad@mb.</p>
+<p>Copyright 2022 Outdoor Adventure</p></div>
+</section>
+<script>
+    var d=0;
+    function func(){
+        if(d==0)
+        {
+            d=1;
+            document.getElementById("mobile").style.animation="ani1 1s ease forwards";
+        }
+        else{
+            d=0;
+            document.getElementById("mobile").style.animation="ani2 1s ease forwards";
+        }
+    }
+</script>
+</body>
+</html>
